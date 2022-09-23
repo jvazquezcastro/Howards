@@ -12,6 +12,7 @@ class PrimeraPreguntaActivity : AppCompatActivity() {
         var contElvira = intent.getIntExtra("elvira", ELVIRA_CONTADOR)
         var contCarlos = intent.getIntExtra("carlos", CARLOS_CONTADOR)
         var contRamon = intent.getIntExtra("ramon", RAMON_CONTADOR)
-
+        LUIS_CONTADOR ++
+        ELVIRA_CONTADOR ++
     }
 }
