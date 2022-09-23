@@ -12,18 +12,17 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:hint="Escriba su nombre"
-        >
-    </EditText>
+        android:hint="Escriba su nombre"></EditText>
 
     <Button
         android:id="@+id/btnAcceder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-        android:text="Acceder"
+        android:backgroundTint="@color/black"
         android:onClick="accederApp"
-        >
+        android:text="Acceder"
+        android:layout_marginBottom="40dp">
 
     </Button>
 </FrameLayout>

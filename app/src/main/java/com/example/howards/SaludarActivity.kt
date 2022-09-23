@@ -19,6 +19,8 @@ class SaludarActivity : AppCompatActivity() {
             text = saludo
         }
     }
+
+
     fun comenzarTest(view : View){
         val intent = Intent(this, PrimeraPreguntaActivity::class.java).apply {
             val nombreUser = intent.getStringExtra("nombre")
