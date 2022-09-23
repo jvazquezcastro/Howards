@@ -9,17 +9,17 @@ import android.widget.RadioGroup
 import android.widget.TextView
 import android.widget.Toast
 
-class SegundaPreguntaActivity : AppCompatActivity() {
+class QuintaPreguntaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_segunda_pregunta)
+        setContentView(R.layout.activity_quinta_pregunta)
     }
 
-    fun terceraPregunta(view: View){
+    fun sextaPregunta(view: View){
         val grupoRadio = findViewById<RadioGroup>(R.id.grupoRadio)
         var id: Int = grupoRadio.checkedRadioButtonId
         if(id != -1){
-            val intent = Intent(this, TerceraPreguntaActivity::class.java).apply {
+            val intent = Intent(this, SextaPreguntaActivity::class.java).apply {
                 val nombreUser = intent.getStringExtra("nombre")
                 var contLuis = intent.getIntExtra("luis", LUIS_CONTADOR)
                 var contElvira = intent.getIntExtra("elvira", ELVIRA_CONTADOR)
@@ -44,7 +44,8 @@ class SegundaPreguntaActivity : AppCompatActivity() {
             else
                 RAMON_CONTADOR ++
             startActivity(intent)
-        }else {
+        }
+        else {
             Toast.makeText(this, "No has seleccionado ninguna opcion", Toast.LENGTH_SHORT).show()
         }
     }

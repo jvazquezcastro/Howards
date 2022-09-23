@@ -12,43 +12,13 @@ class PrimeraPreguntaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_primera_pregunta)
-
-
     }
-
-   /* fun onRadioButtonClikcked(view: View) {
-        var contLuis = intent.getIntExtra("luis", LUIS_CONTADOR)
-        var contElvira = intent.getIntExtra("elvira", ELVIRA_CONTADOR)
-        var contCarlos = intent.getIntExtra("carlos", CARLOS_CONTADOR)
-        var contRamon = intent.getIntExtra("ramon", RAMON_CONTADOR)
-        if (view is RadioButton) {
-            val checked = view.isChecked
-            when (view.id) {
-                R.id.respCarlos ->
-                    if (checked) {
-                        CARLOS_CONTADOR ++
-                    }
-                R.id.respElvira ->
-                    if (checked) {
-                        ELVIRA_CONTADOR ++
-                    }
-                R.id.respLuis ->
-                    if (checked) {
-                        LUIS_CONTADOR ++
-                    }
-                R.id.respRamon ->
-                    if (checked) {
-                        RAMON_CONTADOR ++
-                    }
-            }
-        }
-    }*/
 
     fun segundaPregunta(view: View){
         val grupoRadio = findViewById<RadioGroup>(R.id.grupoRadio)
         var id: Int = grupoRadio.checkedRadioButtonId
         if(id != -1){
-            val intent = Intent(this, SegundaPreguntaActivity::class.java).apply {
+            val intent = Intent(this, OctavaPreguntaActivity::class.java).apply {
                 val nombreUser = intent.getStringExtra("nombre")
                 var contLuis = intent.getIntExtra("luis", LUIS_CONTADOR)
                 var contElvira = intent.getIntExtra("elvira", ELVIRA_CONTADOR)

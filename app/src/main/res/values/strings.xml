@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Howards</string>
+    <string name="seleccionado_spinner">Selected item:</string>
+
+    <string-array name="Tercios">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>+6</item>
+    </string-array>
 </resources>
