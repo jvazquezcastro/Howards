@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|center"
         android:layout_marginTop="80dp"
-        android:text="Pregunta 1:\nBLABLABLABLABLABLABLABLABLABLABLA"
+        android:text="Pregunta 1:\n¿Qué piensas de DAW1 21/22?"
         android:textAlignment="center"
         android:textSize="25dp"
         >
@@ -24,35 +24,39 @@
         android:id="@+id/grupoRadio"
         android:layout_width="328dp"
         android:layout_height="295dp"
-        android:layout_gravity="center|center_horizontal">
+        android:layout_gravity="center|center_horizontal"
+        >
 
         <RadioButton
-            android:id="@+id/respElvira"
+            android:id="@+id/respCarlos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="0dp"
             android:checked="false"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
-
-        <RadioButton
-            android:id="@+id/respCarlos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:checked="false"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
+            android:text="Pues alguno hay que si que es bueno eh."
+            android:textSize="16dp"></RadioButton>
 
         <RadioButton
             android:id="@+id/respLuis"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Me quiero jubilar..."
+            android:textSize="16sp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/respElvira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:checked="false"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
+            android:text="Los de DAM eran bastante mejores."
+            android:textSize="16sp"></RadioButton>
 
         <RadioButton
             android:id="@+id/respRamon"
@@ -61,7 +65,8 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:checked="false"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
+            android:text="No sufrí la desgracia de conocerles."
+            android:textSize="16sp"></RadioButton>
 
 
     </RadioGroup>
@@ -71,9 +76,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="100dp"
         android:backgroundTint="@color/black"
         android:onClick="segundaPregunta"
         android:text="Siguiente"></Button>
+
 </FrameLayout>

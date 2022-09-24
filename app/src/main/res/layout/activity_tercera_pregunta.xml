@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C6C6C6"
-    tools:context=".SegundaPreguntaActivity">
-
+    tools:context=".PrimeraPreguntaActivity">
 
     <TextView
         android:id="@+id/textPregunta"
@@ -14,9 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|center"
         android:layout_marginTop="80dp"
-        android:text="Pregunta 3:\nBLABLABLABLABLABLABLABLABLABLABLA"
+        android:text="Pregunta 3:\n¿Qué accesorio elegirías?"
         android:textAlignment="center"
-        android:textSize="25dp"></TextView>
+        android:textSize="25dp">
+
+    </TextView>
 
     <RadioGroup
         android:id="@+id/grupoRadio"
@@ -32,45 +33,48 @@
             android:checked="false"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
-
-        <RadioButton
-            android:id="@+id/respCarlos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:checked="false"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
+            android:text="Un fular o pañuelo."
+            android:textSize="16dp"></RadioButton>
 
         <RadioButton
             android:id="@+id/respLuis"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
+            android:text="El buen combo altavoz-botella de agua."
+            android:textSize="16sp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/respCarlos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:checked="false"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Calcetines de Mahou."
+            android:textSize="16sp"></RadioButton>
 
         <RadioButton
             android:id="@+id/respRamon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
-            android:checked="false"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
+            android:text="Camiseta de pampling graciosa."
+            android:textSize="16sp"></RadioButton>
 
 
     </RadioGroup>
 
     <Button
-        android:id="@+id/btnPregunta3"
+        android:id="@+id/btnPregunta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="100dp"
         android:backgroundTint="@color/black"
         android:onClick="cuartaPregunta"
         android:text="Siguiente"></Button>

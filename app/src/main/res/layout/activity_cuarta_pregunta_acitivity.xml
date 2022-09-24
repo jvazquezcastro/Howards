@@ -38,13 +38,14 @@
 
 
     <Button
-        android:id="@+id/btnPregunta3"
+        android:id="@+id/btnPregunta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="100dp"
         android:backgroundTint="@color/black"
         android:onClick="quintaPregunta"
         android:text="Siguiente"></Button>
+
 
 </FrameLayout>

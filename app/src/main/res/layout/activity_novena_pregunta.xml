@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C6C6C6"
-    tools:context=".SegundaPreguntaActivity">
-
+    tools:context=".PrimeraPreguntaActivity">
 
     <TextView
         android:id="@+id/textPregunta"
@@ -14,9 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|center"
         android:layout_marginTop="80dp"
-        android:text="Pregunta 2:\nBLABLABLABLABLABLABLABLABLABLABLA"
+        android:text="Pregunta 9:\n¿Qué piensas de Pepa Cano?"
         android:textAlignment="center"
-        android:textSize="25dp"></TextView>
+        android:textSize="25dp">
+
+    </TextView>
 
     <RadioGroup
         android:id="@+id/grupoRadio"
@@ -25,52 +26,55 @@
         android:layout_gravity="center|center_horizontal">
 
         <RadioButton
-            android:id="@+id/respElvira"
+            android:id="@+id/respCarlos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="0dp"
             android:checked="false"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
-
-        <RadioButton
-            android:id="@+id/respCarlos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:checked="false"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
-
-        <RadioButton
-            android:id="@+id/respLuis"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:checked="false"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
+            android:text="No tiene nada que hacer contra mí."
+            android:textSize="16dp"></RadioButton>
 
         <RadioButton
             android:id="@+id/respRamon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
+            android:text="Dame con el látigo."
+            android:textSize="16sp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/respLuis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:checked="false"
-            android:text="BLABLABLABLABLABLABLABLABLA"></RadioButton>
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Pasopalabra..."
+            android:textSize="16sp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/respElvira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Que mona va esa chica siempre."
+            android:textSize="16sp"></RadioButton>
 
 
     </RadioGroup>
 
     <Button
-        android:id="@+id/btnPregunta2"
+        android:id="@+id/btnPregunta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="100dp"
         android:backgroundTint="@color/black"
         android:onClick="decimaPregunta"
         android:text="Siguiente"></Button>

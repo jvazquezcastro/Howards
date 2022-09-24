@@ -20,15 +20,15 @@
 
 
     <Button
-        android:id="@+id/btnPregunta2"
+        android:id="@+id/btnPregunta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="100dp"
         android:backgroundTint="@color/black"
         android:onClick="novenaPregunta"
         android:text="Siguiente"></Button>
+
 
     <LinearLayout
         android:gravity="center|center_horizontal"
@@ -40,7 +40,8 @@
             android:id="@+id/checkBox1"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text=".java">
+            android:text=".java"
+            android:textSize="16sp">
 
         </CheckBox>
 
@@ -49,6 +50,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text=".py"
+            android:textSize="16sp"
             >
 
         </CheckBox>
@@ -57,7 +59,8 @@
             android:id="@+id/checkBox3"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text=".xml">
+            android:text=".xml"
+            android:textSize="16sp">
 
         </CheckBox>
 
@@ -65,7 +68,8 @@
             android:id="@+id/checkBox4"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text=".sql">
+            android:text=".sql"
+            android:textSize="16sp">
 
         </CheckBox>
     </LinearLayout>
