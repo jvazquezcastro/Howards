@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|center"
         android:layout_marginTop="80dp"
-        android:text="Pregunta 4:\nBLABLABLABLABLABLABLABLABLABLABLA"
+        android:text="Pregunta 4:\n¿Con cuantos tercios considerarías que empiezas a ir liao?"
         android:textAlignment="center"
         android:textSize="25dp"></TextView>+
 

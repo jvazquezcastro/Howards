@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|center"
         android:layout_marginTop="80dp"
-        android:text="Pregunta 2:\nBLABLABLABLABLABLABLABLABLABLABLA"
+        android:text="Pregunta 8:\nMarca las extensiones que mas te gusten\n(Si es que te gusta alguna...)"
         android:textAlignment="center"
         android:textSize="25dp"></TextView>
 

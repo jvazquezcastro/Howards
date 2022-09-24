@@ -17,11 +17,9 @@ class SplashScreenActivity : AppCompatActivity() {
 
     fun startTimer() {
         object : CountDownTimer(5000, 1000) {
-            var frase = findViewById<TextView>(R.id.splashText)
+
             override fun onTick(p0: Long) {
-                var frase2 = frase.toString()
-                frase2 = frase2+"."
-                frase.text = frase2
+
             }
 
             override fun onFinish() {
