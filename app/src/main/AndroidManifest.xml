@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Howards"
         tools:targetApi="31">
         <activity
+            android:name=".UltimaPantallaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DecimaPreguntaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".NovenaPreguntaActivity"
             android:exported="false">
             <meta-data

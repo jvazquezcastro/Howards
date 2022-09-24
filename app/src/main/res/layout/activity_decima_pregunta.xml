@@ -72,7 +72,7 @@
 
         android:layout_marginBottom="40dp"
         android:backgroundTint="@color/black"
-        android:onClick="decimaPregunta"
-        android:text="Siguiente"></Button>
+        android:onClick="splashScreen"
+        android:text="Terminar"></Button>
 
 </FrameLayout>

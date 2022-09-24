@@ -31,13 +31,13 @@ class OctavaPreguntaActivity : AppCompatActivity() {
         val cb3 = findViewById<CheckBox>(R.id.checkBox3)
         val cb4 = findViewById<CheckBox>(R.id.checkBox4)
 
-        if(cb1.isSelected)
+        if(cb1.isChecked)
             LUIS_CONTADOR++
-        if(cb2.isSelected)
+        if(cb2.isChecked)
             RAMON_CONTADOR++
-        if(cb3.isSelected)
+        if(cb3.isChecked)
             ELVIRA_CONTADOR++
-        if(cb4.isSelected)
+        if(cb4.isChecked)
             CARLOS_CONTADOR++
 
         startActivity(intent)

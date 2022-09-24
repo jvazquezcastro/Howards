@@ -8,17 +8,17 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Toast
 
-class PrimeraPreguntaActivity : AppCompatActivity() {
+class DecimaPreguntaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_primera_pregunta)
+        setContentView(R.layout.activity_decima_pregunta)
     }
 
-    fun segundaPregunta(view: View){
+    fun splashScreen(view: View){
         val grupoRadio = findViewById<RadioGroup>(R.id.grupoRadio)
         var id: Int = grupoRadio.checkedRadioButtonId
         if(id != -1){
-            val intent = Intent(this, SegundaPreguntaActivity::class.java).apply {
+            val intent = Intent(this, SplashScreenActivity::class.java).apply {
                 val nombreUser = intent.getStringExtra("nombre")
                 var contLuis = intent.getIntExtra("luis", LUIS_CONTADOR)
                 var contElvira = intent.getIntExtra("elvira", ELVIRA_CONTADOR)

@@ -45,15 +45,16 @@
         </CheckBox>
 
         <CheckBox
-            android:id="@+id/checkBox4"
+            android:id="@+id/checkBox2"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text=".py">
+            android:text=".py"
+            >
 
         </CheckBox>
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/checkBox3"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text=".xml">
@@ -61,7 +62,7 @@
         </CheckBox>
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/checkBox4"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text=".sql">
