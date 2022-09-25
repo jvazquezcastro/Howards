@@ -15,6 +15,7 @@
         android:layout_marginTop="80dp"
         android:text="Pregunta 7:\n¿Qué tipo de examen prefieres?"
         android:textAlignment="center"
+        android:textColor="#100c08"
         android:textSize="25dp">
 
     </TextView>
@@ -34,6 +35,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Asequibles, que lo redacte un Teletubbie."
+            android:textColor="#100c08"
             android:textSize="16dp"></RadioButton>
 
         <RadioButton
@@ -44,6 +46,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Mientras haya papel..."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
@@ -54,6 +57,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="A mi me gusta que me penetren durante 3 horas. Pero 4 hace media"
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
@@ -64,6 +68,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Dificultad media/alta pero con ejercicios hechos en clase."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
 

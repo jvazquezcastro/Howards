@@ -15,6 +15,8 @@
         android:layout_marginTop="80dp"
         android:text="Pregunta 2:\n¿Qué piensas de las faltas de asistencia de la gente?"
         android:textAlignment="center"
+        android:textColor="#100c08"
+        android:textColorHint="#100c08"
         android:textSize="25dp">
 
     </TextView>
@@ -34,6 +36,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Jesús no está."
+            android:textColor="#100c08"
             android:textSize="16dp"></RadioButton>
 
         <RadioButton
@@ -44,6 +47,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Mi excel dice que ya van por el 3'666667."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
@@ -54,6 +58,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Jesús siempre está."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
@@ -64,6 +69,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Son tontos, no aprovechan el curso. Apuntad vuestro nombre en esta hoja."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
 

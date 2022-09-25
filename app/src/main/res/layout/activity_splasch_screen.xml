@@ -13,9 +13,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|center"
+        android:layout_marginBottom="40dp"
         android:text="Calculando compatibilidad..."
         android:textAlignment="center"
-        android:layout_marginBottom="40dp"
+        android:textColor="#100c08"
         android:textSize="25dp"></TextView>
 
     <ProgressBar

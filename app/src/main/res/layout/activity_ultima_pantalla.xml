@@ -12,10 +12,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top|center"
-        android:textSize="35dp"
         android:layout_marginTop="20dp"
-        android:textStyle="bold"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textColor="#100c08"
+        android:textSize="35dp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -32,12 +33,12 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="top|center"
-        android:textSize="18dp"
         android:layout_marginTop="295dp"
-
         android:text=""
-        tools:text=""
-        />
+
+        android:textColor="#100c08"
+        android:textSize="18dp"
+        tools:text="" />
 
     <Button
         android:id="@+id/btnPregunta2"

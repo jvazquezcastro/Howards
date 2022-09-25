@@ -15,8 +15,8 @@
         android:layout_marginTop="80dp"
         android:text="Pregunta 1:\n¿Qué piensas de DAW1 21/22?"
         android:textAlignment="center"
-        android:textSize="25dp"
-        >
+        android:textColor="#100c08"
+        android:textSize="25dp">
 
     </TextView>
 
@@ -36,6 +36,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Pues alguno hay que si que es bueno eh."
+            android:textColor="#100c08"
             android:textSize="16dp"></RadioButton>
 
         <RadioButton
@@ -46,26 +47,29 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Me quiero jubilar..."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
             android:id="@+id/respElvira"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
-            android:checked="false"
             android:text="Los de DAM eran bastante mejores."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
             android:id="@+id/respRamon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
-            android:checked="false"
             android:text="No sufrí la desgracia de conocerles."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
 

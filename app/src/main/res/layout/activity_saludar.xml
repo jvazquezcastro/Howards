@@ -14,6 +14,7 @@
         android:layout_gravity="center|center"
         android:text=""
         android:textAlignment="center"
+        android:textColor="#100c08"
         android:textSize="25dp"
         tools:text="Bienvenido"></TextView>
 

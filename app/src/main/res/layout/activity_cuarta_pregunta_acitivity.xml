@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C6C6C6"
+    android:background="#f8f8ff"
     tools:context=".SegundaPreguntaActivity">
 
 
@@ -16,6 +16,7 @@
         android:layout_marginTop="80dp"
         android:text="Pregunta 4:\n¿Con cuantos tercios considerarías que empiezas a ir liao?"
         android:textAlignment="center"
+        android:textColor="#100c08"
         android:textSize="25dp"></TextView>+
 
     <TextView
@@ -26,6 +27,7 @@
         android:layout_marginBottom="30dp"
         android:text="Numero de tercios:"
 
+        android:textColor="#100c08"
         android:textSize="16sp"
         android:textStyle="bold"></TextView>
 
@@ -34,6 +36,9 @@
         android:layout_width="100dp"
         android:layout_height="40dp"
         android:layout_gravity="center|center_horizontal"
+        android:background="#D0D0D1"
+        android:dropDownSelector="#100c08"
+        android:popupBackground="#D0D0D1"
         android:spinnerMode="dropdown"></Spinner>
 
 
@@ -41,12 +46,12 @@
         android:id="@+id/btnPregunta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="100dp"
         android:backgroundTint="@color/black"
         android:onClick="quintaPregunta"
-        android:text="Siguiente"></Button>
+        android:text="Siguiente"
+        android:textColor="@color/white"></Button>
 
 
 </FrameLayout>

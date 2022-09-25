@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C6C6C6"
+    android:background="#f8f8ff"
     tools:context=".MainActivity">
 
     <EditText
@@ -12,7 +12,10 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:hint="Escriba su nombre"></EditText>
+        android:hint="Escriba su nombre"
+        android:textColorHint="#100c08"
+        android:textColor="#100c08"
+        ></EditText>
 
     <Button
         android:id="@+id/btnAcceder"

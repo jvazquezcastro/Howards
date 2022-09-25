@@ -15,6 +15,7 @@
         android:layout_marginTop="80dp"
         android:text="Pregunta 3:\n¿Qué accesorio elegirías?"
         android:textAlignment="center"
+        android:textColor="#100c08"
         android:textSize="25dp">
 
     </TextView>
@@ -34,6 +35,8 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Un fular o pañuelo."
+            android:textColor="#100c08"
+            android:textColorHint="#100c08"
             android:textSize="16dp"></RadioButton>
 
         <RadioButton
@@ -44,6 +47,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="El buen combo altavoz-botella de agua."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
@@ -54,6 +58,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Calcetines de Mahou."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
@@ -64,6 +69,8 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Camiseta de pampling graciosa."
+            android:textColor="#100c08"
+            android:textColorHint="#100c08"
             android:textSize="16sp"></RadioButton>
 
 

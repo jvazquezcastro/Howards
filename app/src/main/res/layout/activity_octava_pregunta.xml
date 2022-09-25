@@ -16,6 +16,7 @@
         android:layout_marginTop="80dp"
         android:text="Pregunta 8:\nMarca las extensiones que mas te gusten\n(Si es que te gusta alguna...)"
         android:textAlignment="center"
+        android:textColor="#100c08"
         android:textSize="25dp"></TextView>
 
 
@@ -42,6 +43,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text=".java"
+            android:textColor="#100c08"
             android:textSize="16sp">
 
         </CheckBox>
@@ -51,8 +53,8 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text=".py"
-            android:textSize="16sp"
-            >
+            android:textColor="#100c08"
+            android:textSize="16sp">
 
         </CheckBox>
 
@@ -61,6 +63,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text=".xml"
+            android:textColor="#100c08"
             android:textSize="16sp">
 
         </CheckBox>
@@ -70,6 +73,8 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text=".sql"
+            android:textColor="#100c08"
+            android:textColorHint="#100c08"
             android:textSize="16sp">
 
         </CheckBox>

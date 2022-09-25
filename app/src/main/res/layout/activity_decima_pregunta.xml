@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C6C6C6"
+    android:background="#f8f8ff"
     tools:context=".PrimeraPreguntaActivity">
 
     <TextView
@@ -15,6 +15,7 @@
         android:layout_marginTop="80dp"
         android:text="Pregunta 10:\n¿Qué habilidad tienes como programador?"
         android:textAlignment="center"
+        android:textColor="#100c08"
         android:textSize="25dp">
 
     </TextView>
@@ -34,6 +35,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Pico código como un semi-dios."
+            android:textColor="#100c08"
             android:textSize="16dp"></RadioButton>
 
         <RadioButton
@@ -44,6 +46,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Me encanta hacer calculadoras en JS."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
@@ -54,6 +57,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Con mirar el código ya sé donde falla (casi siempre)."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
@@ -64,6 +68,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="¿Qué te parece mi programa de inteligencia artificial que hice hoy mientras desayunaba?."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
 
@@ -76,8 +81,8 @@
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="100dp"
         android:backgroundTint="@color/black"
-        android:textColor="@color/white"
         android:onClick="splashScreen"
-        android:text="Siguiente"></Button>
+        android:text="Siguiente"
+        android:textColor="@color/white"></Button>
 
 </FrameLayout>

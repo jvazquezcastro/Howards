@@ -15,6 +15,7 @@
         android:layout_marginTop="80dp"
         android:text="Pregunta 5:\nFrase célebre favorita del año pasado."
         android:textAlignment="center"
+        android:textColor="#100c08"
         android:textSize="25dp">
 
     </TextView>
@@ -34,6 +35,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="¡HOSTIAAAAS!"
+            android:textColor="#100c08"
             android:textSize="16dp"></RadioButton>
 
         <RadioButton
@@ -44,6 +46,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Estoy SOLA."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
@@ -54,6 +57,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Si no me parais, yo sigo."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
         <RadioButton
@@ -64,6 +68,7 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
             android:text="Cuatro hace media."
+            android:textColor="#100c08"
             android:textSize="16sp"></RadioButton>
 
 
