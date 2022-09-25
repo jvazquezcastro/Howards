@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C6C6C6"
+    android:background="#f8f8ff"
     tools:context=".PrimeraPreguntaActivity">
 
     <TextView
@@ -74,6 +74,7 @@
     <Button
         android:id="@+id/btnPregunta1"
         android:layout_width="wrap_content"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="100dp"
