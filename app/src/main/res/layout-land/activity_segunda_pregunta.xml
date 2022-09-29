@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8ff"
+    tools:context=".PrimeraPreguntaActivity">
+
+    <TextView
+        android:id="@+id/textPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Pregunta 2: ¿Qué piensas de las faltas de asistencia de la gente?"
+        android:textAlignment="center"
+        android:textColor="#100c08"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/grupoRadio"
+        android:layout_width="324dp"
+        android:layout_height="245dp"
+        android:layout_marginStart="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPregunta">
+
+        <RadioButton
+            android:id="@+id/respRamon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:checked="false"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Jesús no está."
+            android:textColor="#100c08"
+            android:textSize="16dp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/respCarlos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Mi excel dice que ya van por el 3'666667."
+            android:textColor="#100c08"
+            android:textSize="16sp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/respElvira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Jesús siempre está."
+            android:textColor="#100c08"
+            android:textSize="16sp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/respLuis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Son tontos, no aprovechan el curso. Apuntad vuestro nombre en esta hoja."
+            android:textColor="#100c08"
+            android:textSize="16sp"></RadioButton>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnPregunta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:onClick="terceraPregunta"
+        android:text="Siguiente"
+        app:layout_constraintStart_toEndOf="@+id/grupoRadio"
+        app:layout_constraintTop_toBottomOf="@+id/textPregunta"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
