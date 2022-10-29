@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.widget.TextView
+import java.io.File
 import java.util.TimerTask
 
 class SplashScreenActivity : AppCompatActivity() {
@@ -21,6 +22,7 @@ class SplashScreenActivity : AppCompatActivity() {
             override fun onTick(p0: Long) {
 
             }
+
 
             override fun onFinish() {
                 val intent = Intent(applicationContext, UltimaPantallaActivity::class.java).apply {

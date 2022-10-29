@@ -7,18 +7,20 @@ import android.view.View
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Toast
+import java.io.OutputStreamWriter
 
 class DecimaPreguntaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_decima_pregunta)
+        guardarPuntuacion()
     }
 
     fun splashScreen(view: View){
         val grupoRadio = findViewById<RadioGroup>(R.id.grupoRadio)
         var id: Int = grupoRadio.checkedRadioButtonId
         if(id != -1){
-            val intent = Intent(this, SplashScreenActivity::class.java).apply {
+            val intent = Intent(this, CamaraActivity::class.java).apply {
                 val nombreUser = intent.getStringExtra("nombre")
                 var contLuis = intent.getIntExtra("luis", LUIS_CONTADOR)
                 var contElvira = intent.getIntExtra("elvira", ELVIRA_CONTADOR)
@@ -46,5 +48,24 @@ class DecimaPreguntaActivity : AppCompatActivity() {
         }else {
             Toast.makeText(this, "No has seleccionado ninguna opcion", Toast.LENGTH_SHORT).show()
         }
+    }
+
+    fun guardarPuntuacion() {
+        val archivo = OutputStreamWriter(openFileOutput("puntuaciones.csv", MODE_APPEND))
+        var puntos =
+            arrayOf(RAMON_CONTADOR, LUIS_CONTADOR, ELVIRA_CONTADOR, CARLOS_CONTADOR).sorted()
+        var nombPuntuacion = ""
+        if(puntos[3] == RAMON_CONTADOR)
+            nombPuntuacion = "Ramon"
+        else if (puntos[3] == LUIS_CONTADOR)
+            nombPuntuacion = "Luis"
+        else if (puntos[3] == ELVIRA_CONTADOR)
+            nombPuntuacion = "Elvira"
+        else
+            nombPuntuacion = "Carlos"
+        val usuario = intent.getStringExtra("nombre")
+        val linea = "$usuario,$nombPuntuacion,"
+        archivo.write(linea);
+        archivo.flush()
     }
 }

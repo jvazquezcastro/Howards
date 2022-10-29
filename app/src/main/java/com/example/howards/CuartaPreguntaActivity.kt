@@ -26,7 +26,16 @@ class CuartaPreguntaActivity : AppCompatActivity() {
     fun quintaPregunta(view: View) {
 
         val intent = Intent(this, QuintaPreguntaActivity::class.java).apply {
-
+            val nombreUser = intent.getStringExtra("nombre")
+            var contLuis = intent.getIntExtra("luis", LUIS_CONTADOR)
+            var contElvira = intent.getIntExtra("elvira", ELVIRA_CONTADOR)
+            var contCarlos = intent.getIntExtra("carlos", CARLOS_CONTADOR)
+            var contRamon = intent.getIntExtra("ramon", RAMON_CONTADOR)
+            putExtra("nombre",nombreUser)
+            putExtra("luis", LUIS_CONTADOR )
+            putExtra("elvira", ELVIRA_CONTADOR )
+            putExtra("carlos", CARLOS_CONTADOR )
+            putExtra("ramon", RAMON_CONTADOR )
         }
         val spinner = findViewById<Spinner>(R.id.spinner)
         val index = spinner.selectedItemPosition
